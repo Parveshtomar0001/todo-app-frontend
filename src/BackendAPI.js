@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // const host = "http://localhost:3000"
-const host = "https://todo-app-backend-73ki.onrender.com"
+const host = "https://todo-app-backend-iie6.onrender.com"
 
 async function callCreateAPI(apiPath, body) {
     return await axios.post(host + apiPath, body)
